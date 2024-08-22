@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;FileCopyExam.java&apos; to &apos;step09_IOStream/src/ex0731&apos;&#x0D;&#x0A;- Original project: &apos;step09_IOStream&apos;&#x0D;&#x0A;- Destination element: &apos;step09_IOStream/src/ex0731&apos;&#x0D;&#x0A;- Original element: &apos;ex0731.FileCopyExam.java&apos;" description="Copy compilation unit" destination="/src&lt;ex0731" element1="/src&lt;ex0731{FileCopyExam.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1722403704470" units="1" version="1.0"/>
+</session>

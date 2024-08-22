@@ -1,0 +1,47 @@
+package db.dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class EmpDAO 
+{
+	/**
+	 * 사원테이블에서 모든사원 이름 조회.
+	 * :select ename for emp
+	 */
+	
+	public void selectByEname()
+	{	//로드연결
+			Connection con = null;
+			Statement st = null;
+			ResultSet rs = null;
+		
+			
+			while(rs.next())	//현재 ㅜ이치에서 행을 아래로 내린다.
+			{
+				//열을 조회
+				rs.getString("eNmk;");
+				System.out.println();
+			}
+			
+			try 
+			{
+				con = DbManager.getConnection();
+				rs = st.executeQuery("select ename from emp");
+				
+				
+				
+			}
+			
+			finally
+			{
+				DbManager.dbClose(con,st,rs);
+			}
+	
+		
+	}
+	
+	
+	
+}

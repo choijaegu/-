@@ -1,0 +1,41 @@
+package dao;
+
+import java.util.List;
+
+import dto.Student;
+import dto.Teacher;
+
+public class StudentTeacherDAOImpl implements StudentTeacherDAO 
+{
+
+	@Override
+	public List<Student> getGenderByWomen()
+	{
+		
+		return null;
+	}
+
+	@Override
+	public List<Teacher> getTeacherInfoByAddr(String gu) 
+	{
+		
+		return null;
+	}
+
+	@Override
+	public Teacher getTeacherInfoBySubject(String subject) 
+	{
+		
+		return null;
+	}
+
+	@Override
+	public Teacher getTeacherInfoByNo(int teacherNo) 
+	{
+		
+		return null;
+	}
+
+	
+	
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=step03_interface/src&lt;ex0724.board{Board.java[Board" modifiers="1" timestamp="1721804658618"/>
+    <typeInfo handle="=step03_interface/src&lt;ex0724.board{BoardService.java[BoardService" modifiers="513" timestamp="1721808962749"/>
+    <typeInfo handle="=homework/src&lt;ex0724.문제8{A.java[A" modifiers="513" timestamp="1721813308656"/>
+    <typeInfo handle="=selfstudy/src&lt;Board연습중{Board.java[Board" modifiers="1" timestamp="1721818184647"/>
+    <typeInfo handle="=selfstudy/src&lt;Board연습중{BoardService.java[BoardService" modifiers="513" timestamp="1721817970036"/>
+    <typeInfo handle="=selfstudy/src&lt;Board연습중{Board1.java[Board1" modifiers="1" timestamp="1721871196375"/>
+    <typeInfo handle="=homework/C:\/Edu\/SW\/eclipse-jee-2023-12-R-win32-x86_64\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1698451290000"/>
+    <typeInfo handle="=step12_Network/C:\/Edu\/SW\/eclipse-jee-2023-12-R-win32-x86_64\/eclipse\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\/jre\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/module=/true=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1698451290000"/>
+    <typeInfo handle="=selftest/src&lt;selftest{Employee.java[Employee" modifiers="1025" timestamp="1723020325692"/>
+    <typeInfo handle="=selftest/src&lt;Dto{AccountDto.java[AccountDto" modifiers="1" timestamp="1723030012520"/>
+</typeInfoHistroy>

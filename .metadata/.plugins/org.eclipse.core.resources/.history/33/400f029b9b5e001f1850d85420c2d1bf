@@ -1,0 +1,8 @@
+package db.dao;
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.print(teacher2.getTeacherNo());
+	}
+}
+

@@ -1,0 +1,31 @@
+package view;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import dao.StudentTeacherDAO;
+import dao.StudentTeacherDAOImpl;
+import dto.Student;
+
+public class MainApp 
+{
+
+	public static void main(String[] args) 
+	{	
+		//1. 
+		List<Student>list = new ArrayList<Student>();
+		
+		System.out.println("***여자학생 정보***");
+		
+		StudentTeacherDAO studentDao = new StudentTeacherDAOImpl();
+		
+		list = studentDao.getGenderByWomen();
+		
+		for(Student stu : list)
+		{
+			System.out.println(stu);
+		}
+		
+	}
+
+}

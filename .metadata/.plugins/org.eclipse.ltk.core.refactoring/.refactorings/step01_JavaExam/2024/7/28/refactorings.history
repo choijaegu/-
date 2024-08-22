@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MethodInvokeExam.java&apos; to &apos;ex0710/src/ex0712&apos;&#x0D;&#x0A;- Original project: &apos;step01_JavaExam&apos;&#x0D;&#x0A;- Destination element: &apos;ex0710/src/ex0712&apos;&#x0D;&#x0A;- Original element: &apos;ex0712.method.MethodInvokeExam.java&apos;" description="Copy compilation unit" destination="=ex0710/src&lt;ex0712" element1="/src&lt;ex0712.method{MethodInvokeExam.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1720773809171" units="1" version="1.0"/>
+</session>

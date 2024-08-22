@@ -1,0 +1,5 @@
+package jdbcPractice;
+
+public class DbManager {
+
+}

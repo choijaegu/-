@@ -1,0 +1,22 @@
+package db.view;
+
+import db.dao.EmpDAO;
+
+public class MainApp 
+{
+
+	public static void main(String[] args) 
+	{
+		//1. 사원이름 검색
+
+		System.out.println("**JDBC TEST ****");
+		
+		EmpDAO dao = new EmpDAO();
+		
+		dao.selectByEname();
+		
+		
+		
+	}
+
+}

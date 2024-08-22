@@ -1,0 +1,90 @@
+
+create table bank(
+   account varchar2(10) primary key, --계좌번호
+   balance number --잔액
+);--alt+x
+
+ insert into bank values('A01',1000);
+ insert into bank values('A02',500);
+ 
+ select * from bank;
+ 
+ commit
+delete from bank;
+
+--계좌이체.
+1. 인출한다.
+update bank set balance=balane-인출금액 where account = 출금계좌번호;
+
+
+2. 인출한 금액만큼 입금한다.
+update bank set balance=balance+인출금액 where account =입금계좌번호;
+
+select balance from bank where account='A02';
+
+
+
+--1) 사원 정보를 기준으로 부서정보 검색하기(사원+부서)  1  : 1
+select empno, ename, job, dname, deptno
+from emp join dept
+using(deptno) --where empno=7369;
+--자바에서 코딩
+class Emp{
+    사원속성
+    
+    //Dept dept;
+    
+    int deptno;
+    String dname;
+    String loc;
+}
+
+class Dept{
+   int deptno;
+    String dname;
+    String loc;
+}
+
+ public List<Emp> select(){
+ 
+ }
+
+--2) 부서정보를 기준으로 사원정보 검색하기((부서+사원) 
+select  deptno, dname,empno, ename, job
+from emp join dept
+using(deptno) where deptno = 20 order by deptno;
+
+자바에서 
+class Emp{
+    사원속성
+    Dept dept;
+}
+
+class Dept{
+    부서속성
+    List<Emp> empList;//
+}
+
+
+
+ public List<Dept> select(){
+    while(rs.next() ){
+        Dept dept =new Dept();
+        List<Emp> emlList= new ArrayList():
+    }
+ }
+
+-- 먼저  부서정보를 가져온다.
+ select deptno, dname from dept
+ while(rs.next()){
+    Dept dept = new Dept();
+    int deptno =   rs.getInt(detpno);
+    
+    dept.setEmpList(??????);
+ }
+ 
+ --부서정보에 해당하는 사원정보를 가져오기
+  select empno, ename , job ,sal from emp where deptno =?
+  while(rs.next()){
+     list.add(new Emp());
+  }

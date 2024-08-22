@@ -1,0 +1,5 @@
+package db.vo;
+
+public class Emp {
+
+}
